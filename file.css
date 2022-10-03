@@ -1,0 +1,18 @@
+header{
+    text-align: center;
+    color: #2EADED;
+}
+h2{
+    color: #2EADED;
+}
+#main{
+    width: 90%;
+    margin-left: 7%;
+}
+.card{
+    height: 400px;
+    width: 20%;
+    background-color: bisque;
+    float: left;
+    margin-left: 2%;
+}
