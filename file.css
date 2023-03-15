@@ -2,17 +2,105 @@ header{
     text-align: center;
     color: #2EADED;
 }
-h2{
-    color: #2EADED;
+
+
+
+#imgsh {
+    vertical-align: middle;
+    margin-left: 140px;
 }
-#main{
-    width: 90%;
-    margin-left: 7%;
+
+.logo{
+    height: 150px;
+    width: 100%;
 }
-.card{
-    height: 400px;
-    width: 20%;
-    background-color: bisque;
-    float: left;
-    margin-left: 2%;
+
+#text{
+    margin-top: 115;
+    margin-bottom: 90px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+#me{
+    margin-top: 50px;
+}
+
+#skillsh{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#h2tag{
+    padding: 25px;
+}
+
+#contactsh{
+    padding: 50px;
+}
+
+#projects{
+    margin-top: 125px;
+}
+
+
+/* footer */
+.copyright {
+    display: inline-block;
+    background:;
+    padding: 10px 10px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: #ffc107;
+    font-size: clamp(0.1rem, 3vw, 0.8rem);
+}
+
+.footercontent {
+
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: clamp(0.1rem, 3vw, 0.8rem);
+
+}
+
+.footercontent>span:nth-child(2) {
+    position: relative;
+    color: #ffc107;
+    font-size: clamp(0.1rem, 3vw, 0.8rem);
+    text-align: center;
+}
+
+.footercontent>span>b,
+u {
+    color: #c2d7ff;
+    font-size: clamp(0.1rem, 3vw, 0.8rem);
+    font-weight: 600;
+}
+
+.social>a>i {
+    color: white;
+    font-size: clamp(0.1rem, 3vw, 1rem);
+    margin-left: 20px;
+}
+
+.social {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.social>a>i:hover {
+    color: black;
+    font-weight: 600;
+    background: rgb(157, 192, 255);
+    border-radius: 50%;
+    padding: 5px;
+
 }
